@@ -81,15 +81,16 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        Hasnaa Al-Habahbeh{" "}
+                        <span>web development portfolio</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                      I grew up surrounded by technology and have always been interested in the different aspects of it.
+                      What fascinates me the most about technology is how limitless it can be. Basically, with technology,
+                      if you can think of something, you can build it and make it real. On the other hand, coding offers a
+                      large room for building valuable applications and finding creative solutions for various problems.
                       </p>
-                      <div className="btn-wrapper">
+                      {/* <div className="btn-wrapper">
                         <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
@@ -112,7 +113,7 @@ class Landing extends React.Component {
                             Download React
                           </span>
                         </Button>
-                      </div>
+                      </div> */}
                     </Col>
                   </Row>
                 </div>
@@ -144,35 +145,45 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                          {/* <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
                             <i className="ni ni-check-bold" />
-                          </div>
+                          </div> */}
+                          <br/>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            Aluminum Souq
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Aluminum Souq is an online store for an Aluminum factory. It contains a landing page, a page
+                            for displaying the products line and services, a store, and an about/contact page.
+                            It has a Sign-up and log-in functionality for visitors and a show user accounts,
+                            feedback inbox, and general statistics for the owner.
+                            <br/>
+                            This website was created as the final project for CodeFellows Code 201 course.
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                              HTML
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              Vanilla JS
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                              CSS
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://git-better-dot.github.io/aluminum-factory/"
                           >
-                            Learn more
+                            Link
+                          </Button>
+                          <Button
+                            className="mt-4"
+                            color="primary"
+                            href="https://github.com/git-better-dot/aluminum-factory"
+                          >
+                            Code
                           </Button>
                         </CardBody>
                       </Card>
@@ -180,35 +191,42 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                            <i className="ni ni-istanbul" />
-                          </div>
+                          <br/>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            Pat’s Salmon Cookie Stand
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Pat’s Salmon Cookies is a website for a business created by someone called Pat; who developed a 
+                            recipe for a coffee-time confection called Salmon Cookies. The website contains a public facing page and
+                            an application that calculates daily sales for each store location.
+                            <br/>
+                            This website was created as the second project for 
+                            CodeFellows code-201 course. <br/><br/>
                           </p>
                           <div>
-                            <Badge color="success" pill className="mr-1">
-                              business
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              vision
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              success
-                            </Badge>
+                            <Badge color="primary" pill className="mr-1">
+                                HTML
+                              </Badge>
+                              <Badge color="primary" pill className="mr-1">
+                                Vanilla JS
+                              </Badge>
+                              <Badge color="primary" pill className="mr-1">
+                                CSS
+                              </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            color="primary"
+                            href="https://hasnaa38.github.io/cookie-stand/"
                           >
-                            Learn more
+                            Link
+                          </Button>
+                          <Button
+                            className="mt-4"
+                            color="primary"
+                            href="https://github.com/hasnaa38/cookie-stand"
+                          >
+                            Code
                           </Button>
                         </CardBody>
                       </Card>
@@ -216,35 +234,39 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                            <i className="ni ni-planet" />
-                          </div>
+                          <br/>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            Horned Animals
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Horned Animals is an application that displays images and information of horned animals. 
+                            It allows searching and filtering the animals based on the number of horns. Also, 
+                            visitors can like the pictures of their choice.
+                            <br/>
+                            This application was created as the first project for CodeFellows code-301 course.
                           </p>
+                          <br/><br/>
                           <div>
-                            <Badge color="warning" pill className="mr-1">
-                              marketing
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              product
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              launch
-                            </Badge>
+                          <Badge color="primary" pill className="mr-1">
+                            React
+                          </Badge>
+                          <Badge color="primary" pill className="mr-1">
+                            CSS
+                          </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="warning"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            color="primary"
+                            href="https://keen-brattain-b3c332.netlify.app/"
                           >
-                            Learn more
+                            Link
+                          </Button>
+                          <Button
+                            className="mt-4"
+                            color="primary"
+                            href="https://github.com/hasnaa38/horned-animals"
+                          >
+                            Code
                           </Button>
                         </CardBody>
                       </Card>

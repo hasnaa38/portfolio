@@ -25,9 +25,7 @@ import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
 import Index from "views/Index.js";
 import Landing from "views/examples/Landing.js";
-import Login from "views/examples/Login.js";
 import Profile from "views/examples/Profile.js";
-import Register from "views/examples/Register.js";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -36,8 +34,8 @@ ReactDOM.render(
       <Route
         path="/landing-page"
         exact
-        render={props => <Index {...props} />}
-      /> {/* NOTE: this should be changed to Portfolio */}
+        render={props => <Landing {...props} />}
+      />
       <Route
         path="/how-to"
         exact
