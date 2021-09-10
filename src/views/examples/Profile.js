@@ -108,16 +108,16 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">8</span>
-                          <span className="description">Cats</span>
+                          <span className="heading"> </span>
+                          <span className="description"> </span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
-                          <span className="description">Are</span>
+                          <span className="heading"> </span>
+                          <span className="description"> </span>
                         </div>
                         <div>
-                          <span className="heading">89</span>
-                          <span className="description">Everything</span>
+                          <span className="heading"> </span>
+                          <span className="description"> </span>
                         </div>
                       </div>
                     </Col>
@@ -133,26 +133,24 @@ class Profile extends React.Component {
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Software Developer - Electrical Engineer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Jordan - LTUC ASAC
+                      LTUC ASAC - University of Jordan
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        Hello, my name is Hasnaa Al-Habahbeh, I graduated as an electrical engineer from the university 
+                        of Jordan. I have always been interested in coding and technology in general, and recently 
+                        decided to take the opportunity to become a web developer.
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        {/* <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
-                        </a>
+                        </a> */}
                       </Col>
                     </Row>
                   </div>
