@@ -38,7 +38,7 @@ class Profile extends React.Component {
         <main className="profile-page" ref="main">
           <section className="section-profile-cover section-shaped my-0">
             {/* Circles background */}
-            <div className="shape shape-style-1 shape-default alpha-4">
+            <div className="shape shape-style-1 shape-default alpha-4" style={{"background": "linear-gradient(150deg, #276aa0 15%, #003866 70%, #001c33 94%)"}} >
               <span />
               <span />
               <span />
@@ -153,6 +153,18 @@ class Profile extends React.Component {
                         {/* <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
                         </a> */}
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col className="col-sm">
+                        <br/><br/><br/>
+                        <Button 
+                        color="default" 
+                        type="button"
+                        href="landing-page"
+                        >
+                          Portfolio
+                        </Button>
                       </Col>
                     </Row>
                   </div>

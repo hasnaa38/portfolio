@@ -65,7 +65,7 @@ class Landing extends React.Component {
           <div className="position-relative">
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
-              <div className="shape shape-style-1 shape-default">
+              <div className="shape shape-style-1 shape-default" style={{"background": "linear-gradient(150deg, #276aa0 15%, #003866 70%, #001c33 94%)"}}>
                 <span />
                 <span />
                 <span />
@@ -132,26 +132,26 @@ class Landing extends React.Component {
                             This website was created as the final project for CodeFellows Code 201 course.
                           </p>
                           <div>
-                            <Badge color="primary" pill className="mr-1">
+                            <Badge pill className="mr-1" color="warning">
                               HTML
                             </Badge>
-                            <Badge color="primary" pill className="mr-1">
+                            <Badge pill className="mr-1" style={{"background-color":"#FDDB23", "color":"white"}}>
                               Vanilla JS
                             </Badge>
-                            <Badge color="primary" pill className="mr-1">
+                            <Badge pill className="mr-1" color="info">
                               CSS
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="primary"
+                            color="default"
                             href="https://git-better-dot.github.io/aluminum-factory/"
                           >
                             Link
                           </Button>
                           <Button
                             className="mt-4"
-                            color="primary"
+                            color="default"
                             href="https://github.com/git-better-dot/aluminum-factory"
                           >
                             Code
@@ -175,26 +175,26 @@ class Landing extends React.Component {
                             CodeFellows code-201 course. <br /><br />
                           </p>
                           <div>
-                            <Badge color="primary" pill className="mr-1">
+                            <Badge pill className="mr-1" color="warning">
                               HTML
                             </Badge>
-                            <Badge color="primary" pill className="mr-1">
+                            <Badge pill className="mr-1" style={{"background-color":"#FDDB23", "color":"white"}}>
                               Vanilla JS
                             </Badge>
-                            <Badge color="primary" pill className="mr-1">
+                            <Badge pill className="mr-1" color="info">
                               CSS
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="primary"
+                            color="default"
                             href="https://hasnaa38.github.io/cookie-stand/"
                           >
                             Link
                           </Button>
                           <Button
                             className="mt-4"
-                            color="primary"
+                            color="default"
                             href="https://github.com/hasnaa38/cookie-stand"
                           >
                             Code
@@ -205,7 +205,7 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <br />
+                          <br/>
                           <h6 className="text-warning text-uppercase">
                             Horned Animals
                           </h6>
@@ -218,23 +218,23 @@ class Landing extends React.Component {
                           </p>
                           <br /><br />
                           <div>
-                            <Badge color="primary" pill className="mr-1">
+                            <Badge pill className="mr-1" color="primary">
                               React
                             </Badge>
-                            <Badge color="primary" pill className="mr-1">
+                            <Badge pill className="mr-1" color="info">
                               CSS
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="primary"
+                            color="default"
                             href="https://keen-brattain-b3c332.netlify.app/"
                           >
                             Link
                           </Button>
                           <Button
                             className="mt-4"
-                            color="primary"
+                            color="default"
                             href="https://github.com/hasnaa38/horned-animals"
                           >
                             Code
@@ -264,26 +264,26 @@ class Landing extends React.Component {
                             Project description
                           </p>
                           <div>
-                            <Badge color="primary" pill className="mr-1">
+                            <Badge color="default" pill className="mr-1">
                               #1
                             </Badge>
-                            <Badge color="primary" pill className="mr-1">
+                            <Badge color="default" pill className="mr-1">
                               #2
                             </Badge>
-                            <Badge color="primary" pill className="mr-1">
+                            <Badge color="default" pill className="mr-1">
                               #3
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="primary"
+                            color="default"
                             href=""
                           >
                             Link
                           </Button>
                           <Button
                             className="mt-4"
-                            color="primary"
+                            color="default"
                             href=""
                           >
                             Code
@@ -302,26 +302,26 @@ class Landing extends React.Component {
                             Project description
                           </p>
                           <div>
-                            <Badge color="primary" pill className="mr-1">
+                            <Badge color="default" pill className="mr-1">
                               #1
                             </Badge>
-                            <Badge color="primary" pill className="mr-1">
+                            <Badge color="default" pill className="mr-1">
                               #2
                             </Badge>
-                            <Badge color="primary" pill className="mr-1">
+                            <Badge color="default" pill className="mr-1">
                               #3
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="primary"
+                            color="default"
                             href=""
                           >
                             Link
                           </Button>
                           <Button
                             className="mt-4"
-                            color="primary"
+                            color="default"
                             href=""
                           >
                             Code
@@ -340,23 +340,23 @@ class Landing extends React.Component {
                             Project description
                           </p>
                           <div>
-                            <Badge color="primary" pill className="mr-1">
+                            <Badge color="default" pill className="mr-1">
                               #1
                             </Badge>
-                            <Badge color="primary" pill className="mr-1">
+                            <Badge color="default" pill className="mr-1">
                               #2
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
-                            color="primary"
+                            color="default"
                             href=""
                           >
                             Link
                           </Button>
                           <Button
                             className="mt-4"
-                            color="primary"
+                            color="default"
                             href=""
                           >
                             Code
@@ -403,13 +403,13 @@ class Landing extends React.Component {
             </Container>
           </section>
           <section className="section section-lg bg-gradient-default">
-            <Container className="pt-lg pb-300">
+            <Container className="pt-lg pb-250">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
                   <h2 className="display-3 text-white">Contact</h2>
-                  <p className="lead text-white">
+                  {/* <p className="lead text-white">
                     
-                  </p>
+                  </p> */}
                 </Col>
               </Row>
 
