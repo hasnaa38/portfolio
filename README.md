@@ -4,9 +4,16 @@ This code demonstrates my knowledge of the React library and ability to explore 
 
 Netlify link [here](https://hasnaaportfolio.netlify.app/)
 
-## Feature .1 - 
+## Page .1 - Profile
 
-Estimate of time needed to complete: 
-Start time: 
-Finish time: 
-Actual time needed to complete: 
+Estimate of time needed to complete: 3 hours
+Start time: Fri, 8 pm
+Finish time: Fri, 12 pm
+Actual time needed to complete: 4 hours
+
+## Page .1 - Portfolio
+
+Estimate of time needed to complete: 3 hours
+Start time: Sat, 2:30 pm
+Finish time: Sat, 4:45 pm
+Actual time needed to complete: 2:15 pm
