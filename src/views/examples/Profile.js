@@ -34,11 +34,13 @@ class Profile extends React.Component {
   render() {
     return (
       <>
+      {/* style={{"background": "linear-gradient(150deg, #276aa0 15%, #003866 70%, #001c33 94%)"}} > */}
+              
         <DemoNavbar />
         <main className="profile-page" ref="main">
           <section className="section-profile-cover section-shaped my-0">
             {/* Circles background */}
-            <div className="shape shape-style-1 shape-default alpha-4" style={{"background": "linear-gradient(150deg, #276aa0 15%, #003866 70%, #001c33 94%)"}} >
+            <div className="shape shape-style-1 shape-default alpha-4" style={{"background": "linear-gradient(150deg, #e67878 15%, #79313b 70%, #5a1f24 94%)"}} >
               <span />
               <span />
               <span />
@@ -124,16 +126,16 @@ class Profile extends React.Component {
                     </Col>
                     <br/><br/>
                   </Row>
-                  <div className="text-center mt-5">
-                    <h3>
+                  <div className="text-center mt-5 text-dark">
+                    <h3 className="text-dark">
                       Hasnaa Al-Habahbeh{" "}
                       <span className="font-weight-light">, 23</span>
                     </h3>
-                    <div className="h6 font-weight-300">
-                      <i className="ni location_pin mr-2" />
+                    <div className="h6 font-weight-300 text-dark">
+                      <i className="ni location_pin mr-2 " />
                       Amman, Jordan
                     </div>
-                    <div className="h6 mt-4">
+                    <div className="h6 mt-4 text-danger">
                       <i className="ni business_briefcase-24 mr-2" />
                       Software Developer - Electrical Engineer
                     </div>
@@ -142,7 +144,7 @@ class Profile extends React.Component {
                       LTUC ASAC - University of Jordan
                     </div>
                   </div>
-                  <div className="mt-5 py-5 border-top text-center">
+                  <div className="mt-5 py-5 border-top text-center text-dark">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
@@ -159,7 +161,7 @@ class Profile extends React.Component {
                       <Col className="col-sm">
                         <br/><br/><br/>
                         <Button 
-                        color="default" 
+                        color="danger" 
                         type="button"
                         href="landing-page"
                         >
