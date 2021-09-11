@@ -37,21 +37,21 @@ class SimpleFooter extends React.Component {
           <Container>
             <Row className=" row-grid align-items-center mb-5">
               <Col lg="6">
-                <h3 className=" text-primary font-weight-light mb-2">
+                <h3 className=" text-danger font-weight-light mb-2">
                   Thank you for checking my portfolio!
                 </h3>
-                <h4 className=" mb-0 font-weight-light">
+                <h4 className=" mb-0 font-weight-light text-dark" >
                   Let's get in touch on any of these platforms.
                 </h4>
               </Col>
-              <Col className="text-lg-center btn-wrapper" lg="6">
+              <Col className="text-lg-right btn-wrapper" lg="6">
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="linkedin"
                   href="https://www.linkedin.com/in/hasnaa-al-habahbeh"
                   id="tooltip829810202"
                   target="_blank"
-                  style={{"margin-left": "0rem", "border": "#525F7F solid 1px", "background-color":"#525F7F"}}
+                  style={{"margin-left": "0rem", "border": "#f5365c solid 1px", "background-color":"#f5365c"}}
                 >
                   <span className="btn-inner--icon">
                     <i class="fa fa-linkedin fa-stack-1x fa-inverse" style={{"margin-left": "0rem",}}/>
@@ -78,13 +78,14 @@ class SimpleFooter extends React.Component {
               </Col>
             </Row>
             <hr />
-            <Row className=" align-items-center justify-content-md-between">
+            <Row className=" align-items-center justify-content-md-between ">
               <Col md="6">
-                <div className=" copyright">
+                <div className=" copyright text-dark">
                   © {new Date().getFullYear()}{" "}
                   <a
                     href="https://www.creative-tim.com?ref=adsr-footer"
                     target="_blank"
+                    className="text-danger"
                   >
                     Creative Tim
                   </a>
@@ -92,7 +93,7 @@ class SimpleFooter extends React.Component {
                 </div>
               </Col>
               <Col md="6">
-                <Nav className=" nav-footer justify-content-end">
+                <Nav className=" nav-footer justify-content-end navbar-danger">
                   <NavItem>
                     <NavLink
                       href="https://www.creative-tim.com?ref=adsr-footer"

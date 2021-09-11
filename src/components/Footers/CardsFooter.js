@@ -49,14 +49,14 @@ class CardsFooter extends React.Component {
                   Let's get in touch on any of these platforms.
                 </h4>
               </Col>
-              <Col className="text-lg-center btn-wrapper" lg="6">
+              <Col className="text-lg-right btn-wrapper" lg="6">
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="linkedin"
                   href="https://www.linkedin.com/in/hasnaa-al-habahbeh/"
                   id="tooltip829810202"
                   target="_blank"
-                  style={{"margin-left": "0rem", "border": "#525F7F solid 1px", "background-color":"#525F7F"}}
+                  style={{"margin-left": "0rem", "border": "#172b4d solid 1px", "background-color":"#172b4d"}}
                 >
                   <span className="btn-inner--icon">
                     <i class="fa fa-linkedin fa-stack-1x fa-inverse" style={{"margin-left": "0rem",}} />
